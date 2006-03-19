@@ -1,0 +1,15 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Perl-Configure
+version:      0.01
+version_from: lib/Perl/Configure.pm
+installdirs:  site
+requires:
+    Data::Dumper:                  0
+    Expect:                        1.15
+    Getopt::Long:                  2.35
+    Log::Log4perl:                 1
+    YAML:                          0.35
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.30
