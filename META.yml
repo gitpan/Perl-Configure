@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Perl-Configure
-version:             0.06
+version:             0.07
 abstract:            Answer perl's ./Configure questions reproducibly
 license:             ~
 generated_by:        ExtUtils::MakeMaker version 6.31
