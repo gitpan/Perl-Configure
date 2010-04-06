@@ -1,18 +1,15 @@
---- #YAML:1.0
-name:                Perl-Configure
-version:             0.07
-abstract:            Answer perl's ./Configure questions reproducibly
-license:             ~
-generated_by:        ExtUtils::MakeMaker version 6.31
-distribution_type:   module
-requires:     
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Perl-Configure
+version:      0.08
+version_from: lib/Perl/Configure.pm
+installdirs:  site
+requires:
     Data::Dumper:                  0
     Expect:                        1.15
     Getopt::Long:                  2.35
     Log::Log4perl:                 1
     YAML:                          0.35
-meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
-    version: 1.2
-author:
-    - Mike Schilli <m@perlmeister.com>
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.30_01
